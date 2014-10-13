@@ -24,6 +24,7 @@ namespace Marksman
             Config = new Menu("Marksman", "Marksman", true);
             CClass = new Champion();
             var BaseType = CClass.GetType();
+            new AssassinManager();
 
             /* Update this with Activator.CreateInstance or Invoke
                http://stackoverflow.com/questions/801070/dynamically-invoking-any-function-by-passing-function-name-as-string 
